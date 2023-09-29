@@ -4,10 +4,7 @@ import java.util.Scanner;
 class calculator {
     int n;
     double total;
-    // int sum;
-    // double sub;
-    // int mul;
-    // double div;
+    
 
     void sum() {
         Scanner sc = new Scanner(System.in);
@@ -98,10 +95,7 @@ class calculator {
 
     calculator(int n, double total) {
         this.n = n;
-        // this.sum = sum;
-        // this.sub = sub;
-        // this.mul = mul;
-        // this.div = div;
+        
         this.total = total;
     }
 }
