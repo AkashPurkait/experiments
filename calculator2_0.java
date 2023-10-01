@@ -108,6 +108,7 @@ class calculator2_0 {
         int n = sc.nextInt();
         if (n == 0) {
             System.out.println("ERROR");
+            System.exit(0);
         }
         // int sum = 0, mul = 1;
         // double sub = 0, div = 1;
